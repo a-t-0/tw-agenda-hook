@@ -8,6 +8,9 @@ In short;
 
 These 4 pieces of information are automatically merged into a new property: effective date.
 
+### Todo 0. ###
+Include/read https://groups.google.com/forum/#!topic/taskwarrior-user/9qii7X4s0v4 (and https://github.com/linuxcaffe/tw-sched-sh) before you start.
+
 ### Todo 1. ###
 
 Find out whether it automatically exports to agenda (in order of sorted effective date) (using the estimated duration to actually schedule the work , otherwise implement it and compare it to the urgency scheduling method. (Highest urgency first, use estimated duration of tasks to add them to your calendar. {define the constraints of your calendar with davdroid, and recurring tasks (eat clean laundry +sleep etc) that should be automatically exported to your calendar [AND/OR  the other way round!].})
