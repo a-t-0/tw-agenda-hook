@@ -6,9 +6,16 @@ In short;
 - until:date for those tasks that can't be done after that date (like "go to event")
 - wait:date for those tasks you don't want to see till then
 
-This information is automatically merged into a new property: effective date.
+These 4 pieces of information are automatically merged into a new property: effective date.
 
-Todo: Find out whether it automatically exports to agenda using the estimated duration, otherwise implement it and compare it to the urgency scheduling method. (Highest urgency first, use estimated duration of tasks to add them to your calendar. {define the constraints of your calendar with davdroid, and recurring tasks (eat clean laundry +sleep etc) that should be automatically exported to your calendar [AND/OR  the other way round!].})
+###Todo 1.###
+Find out whether it automatically exports to agenda (in order of sorted effective date) (using the estimated duration to actually schedule the work , otherwise implement it and compare it to the urgency scheduling method. (Highest urgency first, use estimated duration of tasks to add them to your calendar. {define the constraints of your calendar with davdroid, and recurring tasks (eat clean laundry +sleep etc) that should be automatically exported to your calendar [AND/OR  the other way round!].})
+
+###Todo 2.### 
+Auto "sms" if scheduling conflict is detected/arises
+
+###Todo 3.### 
+Add algorithm 1ng to improve estimated duration forecasting.
 
 
 status: Working well, still in testing
