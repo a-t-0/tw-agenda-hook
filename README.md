@@ -1,6 +1,15 @@
 ## tw-agenda-hook
 
-is a taskwarrior extension that provides an edate (effective date) and agenda reports. With this hook installed, tasks can have any combination of scheduled, due, until or wait dates, and can then be sorted by edate (aka agenda) combining all of those into a coherent chronological order. edate is assigned in this order; sched, due, until, wait, the first of these four to exist, is the "effective date".
+In short; 
+- sched:date means do/complete a task on that date, but it has no deadline
+- due:date when tasks are actually due (have a hard deadline) 
+- until:date for those tasks that can't be done after that date (like "go to event")
+- wait:date for those tasks you don't want to see till then
+
+This information is automatically merged into a new property: effective date.
+
+Todo: Find out whether it automatically exports to agenda using the estimated duration, otherwise implement it and compare it to the urgency scheduling method. (Highest urgency first, use estimated duration of tasks to add them to your calendar. {define the constraints of your calendar with davdroid, and recurring tasks (eat clean laundry +sleep etc) that should be automatically exported to your calendar [AND/OR  the other way round!].})
+
 
 status: Working well, still in testing
 
